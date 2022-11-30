@@ -7,34 +7,17 @@
 }
 
 .banner>img {
-    width: 400px;
+    max-width: 100%;
+    height: auto;
+
 }
 
-
-
-/* .container {
+nav>ul {
     display: flex;
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: 150px auto;
-    grid-template-rows: 80px auto;
-    column-gap: 10px;
-    row-gap: 15px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px;
+    list-style-type: none;
 }
 
-.one,
-.two,
-.three,
-.four,
-.five,
-.six,
-.seven,
-.eight,
-.nine,
-.ten,
-.eleven,
-.twelve,
-.thirteen {
-    width: 50vh;
-    height: 300px;
-} */
