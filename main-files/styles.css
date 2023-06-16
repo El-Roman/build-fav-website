@@ -30,8 +30,10 @@ nav>ul {
     object-fit: cover;
 }
 
-.col {
+.col:hover {
     text-transform: uppercase;
+    filter: brightness(40%);
+    transition-duration: 1s;
 }
 
 a {
